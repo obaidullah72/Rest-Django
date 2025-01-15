@@ -1,11 +1,11 @@
-# Django REST API Practice Project
+# Django REST Framework Practice Project
 
-This **Django REST API Practice Project** showcases various web development features such as JWT Authentication, CRUD operations, and RESTful API development using **Django REST Framework (DRF)**. The project includes the following key applications:
+This **Django REST Framework (DRF) Practice Project** showcases various web development features such as JWT Authentication, CRUD operations, and RESTful API development using **Django REST Framework (DRF)**. The project includes the following key applications:
 - **LoginSignupApp**: User authentication using JWT.
 - **BookApp**: A CRUD API for managing book records.
 - **Location & Item Management**: CRUD operations for managing location and item data through the Django Admin Panel.
 
-Built with **Django**, **Django REST Framework**, and **JWT Authentication**, this project provides a modern, RESTful approach to managing backend data and user authentication.
+Built with **Django**, **Django REST Framework (DRF)**, and **JWT Authentication**, this project provides a modern, RESTful approach to managing backend data and user authentication.
 
 <img src="assets/splashscreen.gif" width="200">
 
@@ -20,9 +20,9 @@ Built with **Django**, **Django REST Framework**, and **JWT Authentication**, th
 
   <img src="assets/login_signup_app.jpg" width="200">
 
-### **BookApp (CRUD API)**
+### **BookApp (CRUD with Django REST Framework)**
 - Full Create, Read, Update, Delete (CRUD) functionality for books.
-- Use of Django REST Framework to build API endpoints for books.
+- Use of Django REST Framework to build API endpoints for book records.
 - Supports filtering, pagination, and sorting of book records.
 
   <img src="assets/book_app_crud.jpg" width="200">
@@ -76,7 +76,7 @@ rest_django/
 │   ├── urls.py                     # URL routing for the login/signup app
 │   └── serializers.py              # Serializers for login/signup requests
 │
-├── bookapp/                        # Book CRUD API
+├── bookapp/                        # Book CRUD with Django REST Framework
 │   ├── migrations/                 # Database migrations
 │   ├── models.py                   # Book model
 │   ├── views.py                    # Views for the book API (CRUD)
