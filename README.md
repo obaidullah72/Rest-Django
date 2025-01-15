@@ -1,6 +1,6 @@
-# Django REST Framework Practice Project
+# Django REST Framework Project
 
-This **Django REST Framework (DRF) Practice Project** showcases various web development features such as JWT Authentication, CRUD operations, and RESTful API development using **Django REST Framework (DRF)**. The project includes the following key applications:
+This **Django REST Framework (DRF) Project** showcases various web development features such as JWT Authentication, CRUD operations, and RESTful API development using **Django REST Framework (DRF)**. The project includes the following key applications:
 - **LoginSignupApp**: User authentication using JWT.
 - **BookApp**: A CRUD API for managing book records.
 - **Location & Item Management**: CRUD operations for managing location and item data through the Django Admin Panel.
